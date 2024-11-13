@@ -12,9 +12,11 @@ import com.jfinal.core.Controller;
  */
 public class appController extends Controller {
 
+
     public void index(){
         renderText("ttt");
     }
+
     @ActionKey("/ttt")
     public void mct(){
         renderText("mc");
